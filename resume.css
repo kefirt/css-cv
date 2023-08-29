@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    background-color: rgb(134, 185, 185);
+    color: rgb(77, 39, 167);
+    font-size: 23px;
+    font-weight: normal;
+    /* font-family: 'Roboto', sans-serif; */
+
+    /* font: normal 12px 'Roboto', sans-serif; */
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boys {
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 300px purple;
+    margin: 60px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+    
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.church-img {
+    width: 100%;
+}
+
+.info p {
+    color: #914abb;
+}
+
+.info  {
+    display: flex;
+    color: chocolate;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin: 100px 0 0 60px;
+
+}
+.workout {
+    font-weight: bold;
+}
+
+/* Box model */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.social {
+    background: rgb(70, 168, 83) ;
+    padding: 15px;
+    border: 15px solid black;
+    border-style: double;
+    margin: 15px;
+}
+
+.box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+    border: solid rgb(172, 85, 85) 10px;
+    box-sizing:border-box;
+    margin-top: 100px;
+}
+
+.bg-red {
+    background: rgb(238, 101, 101);
+}
+
+.bg-green {
+    background: rgb(78, 185, 111);
+}
+
+.bg-yellow {
+    background: rgb(209, 221, 100);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #412c12;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color: #bdb327;
+}
+
+.table tr:nth-child(odd) {
+    color: #000;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom:  1px solid rgb(149, 156, 147);
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+
+.form-group label{
+    display: block;
+    font-size: 24px;
+
+}
+
+.form-group input,
+.form-group textarea {
+    
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #a82323;
+    padding: 10px 0 ;
+    font-family: inherit;
+    font-size: 20px;
+    outline: none;
+    
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    color: #fcfcfc;
+    padding: 15px 20px;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.btn:hover {
+    color: #af1616;
+}
+
+/* Position */
+
+.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgb(197, 56, 21);
+    }
